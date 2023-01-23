@@ -18,12 +18,6 @@ async function makeSandwich() {
 makeSandwich();
 
 
-This will log:
-
-> Putting bread in toaster...
-> Doing something else while bread is toasting...
-> Bread is toasted!
-
 Now, if you want the makeSandwich function to wait for the bread to toast before moving on, you can do:
 
 async function makeSandwich() {

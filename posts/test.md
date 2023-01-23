@@ -9,15 +9,16 @@ Here's an example:
 
 Copy code
 
-    async function makeSandwich() {
-    console.log("Putting bread in toaster...");
-    setTimeout(() => {
-        console.log("Bread is toasted!");
-    }, 3000);
-    console.log("Doing something else while bread is toasting...");
-    }
-    makeSandwich();
-
+```
+async function makeSandwich() {
+console.log("Putting bread in toaster...");
+setTimeout(() => {
+    console.log("Bread is toasted!");
+}, 3000);
+console.log("Doing something else while bread is toasting...");
+}
+makeSandwich();
+```
 
 This will log:
 

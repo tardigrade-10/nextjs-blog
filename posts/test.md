@@ -9,7 +9,6 @@ Here's an example:
 
 Copy code
 
-```jsx
 async function makeSandwich() {
 console.log("Putting bread in toaster...");
 setTimeout(() => {
@@ -18,7 +17,6 @@ setTimeout(() => {
 console.log("Doing something else while bread is toasting...");
 }
 makeSandwich();
-```
 
 This will log:
 

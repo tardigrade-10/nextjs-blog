@@ -9,7 +9,7 @@ Here's an example:
 
 Copy code
 
-```javascript
+```jsx
 async function makeSandwich() {
 console.log("Putting bread in toaster...");
 setTimeout(() => {
